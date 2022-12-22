@@ -20,7 +20,7 @@ a[id^='skills-btn']:hover {
 
 div#resume {
   min-width: 310px;
-  font: 16px Helvetica, Avernir, sans-serif;
+  font: 1em Helvetica, Avernir, sans-serif;
   line-height: 24px;
   color: #444;
   margin-top:-30px;
@@ -30,17 +30,21 @@ div#resume {
 div#resume h1 {
   margin: 0 0 16px 0;
   padding: 0 0 0px 0;
-  font-size: 30px;
+  font-size: 3em;
+  font-family: Raleway, sarif;
   font-weight: bold;
   letter-spacing: -2px;
-  
   line-height: 50px
 }
 
 div#resume h2 {
-  font-size: 20px;
+  font-size: 1.5em;
   margin: 0 0 6px 0;
   position: relative
+}
+
+div#resume h3 {
+  font-family: Raleway, sarif;
 }
 
 div#resume h2 span {
@@ -49,7 +53,7 @@ div#resume h2 span {
   right: 0;
   font-style: italic;
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 0.8em;
   color: #999;
   font-weight: normal
 }
@@ -92,7 +96,7 @@ div#resume dl {
 div#resume dl dt,
 div#resume dl dd {
   display: table-cell;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 div#resume dl dd {
@@ -107,7 +111,15 @@ div#resume lk img {
   transform: rotate(-4deg);
   box-shadow: 0 0 4px rgba(0, 0, 0, .3);
   width: 30%;
-  max-width: 220px
+  max-width: 220px;
+}
+
+/* Skills section and below */
+span.job-org {
+
+}
+span.job-date {
+  display: block;
 }
 
 div#footer {
@@ -168,7 +180,7 @@ div#footer a {
     font-size: 18px
   }
   div#resume dt {
-    font-size: 20px
+    font-size: 1em
   }
   h1 {
     font-size: 36px;
@@ -195,7 +207,7 @@ div#footer a {
   }
   p,
   li {
-    margin-right: 20px
+    margin-right: 20px;
   }
 }
 
@@ -205,7 +217,7 @@ div#footer a {
   position:relative;
   height:70px;
   margin-top:-15px;
-  font: 15px Helvetica, Avernir, sans-serif;
+  font: 1em Helvetica, Avernir, sans-serif;
 }
 .upp-right-pos {
   position:absolute; 
